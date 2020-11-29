@@ -1,0 +1,76 @@
+.bigBox .noneBox {
+  width: 210px;
+  height: 230px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 2px solid #e9edf5;
+}
+.bigBox .noneBox .top {
+  width: 100%;
+  height: 50px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #fbfbfc;
+  display: flex;
+  border-bottom: 2px solid #e9edf5;
+}
+.bigBox .noneBox .top div {
+  height: 100%;
+}
+.bigBox .noneBox .top .tmid {
+  width: 140px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 10px;
+}
+.bigBox .noneBox .top .left,
+.bigBox .noneBox .top .right {
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbfbfc;
+}
+.bigBox .noneBox .top .left .fk,
+.bigBox .noneBox .top .right .fk {
+  width: 10px;
+  height: 10px;
+  border: 3px solid #bdc7d0;
+  border-radius: 3px;
+  transform-origin: 50% 50%;
+}
+.bigBox .noneBox .top .left {
+  border-top-left-radius: 5px;
+  border-right: 2px solid #e9edf5;
+}
+.bigBox .noneBox .top .left .fk {
+  transform: rotate(-45deg);
+  border-right: 0;
+  border-bottom: 0;
+}
+.bigBox .noneBox .top .right {
+  border-top-right-radius: 5px;
+  border-left: 2px solid #e9edf5;
+}
+.bigBox .noneBox .top .right .fk {
+  transform: rotate(-45deg);
+  border-top: 0;
+  border-left: 0;
+}
+.bigBox .noneBox .midbox {
+  width: 100%;
+  font-size: 14px;
+}
+.bigBox .noneBox .midbox table {
+  width: 100%;
+}
+.bigBox .noneBox .midbox table td {
+  text-align: center;
+  height: 25px;
+}
+.bigBox .noneBox .midbox table thead {
+  color: #bebebe;
+}
+.bigBox .noneBox .midbox table thead td:nth-child(2n+1) {
+  background-color: pink;
+}
