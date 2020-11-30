@@ -68,17 +68,8 @@
   text-align: center;
   height: 25px;
 }
-.bigBox .noneBox .midbox table td:nth-child(2n) {
-  background-color: blanchedalmond;
-}
-.bigBox .noneBox .midbox table td:nth-child(2n+1) {
-  background-color: aquamarine;
-}
 .bigBox .noneBox .midbox table thead {
   color: #bebebe;
-}
-.bigBox .noneBox .midbox table thead td:nth-child(2n+1) {
-  background-color: pink;
 }
 .today {
   border-radius: 10px;
